@@ -41,3 +41,15 @@ window.ontouchend = e => handleOnUp(e.touches[0]);
 window.onmousemove = e => handleOnMove(e);
 
 window.ontouchmove = e => handleOnMove(e.touches[0]);
+
+const f = document.getElementById('form');
+const q = document.getElementById('query');
+const google = 'https://www.allrecipes.com/search?q=+';
+const site = '';
+function submitted(event) {
+  event.preventDefault();
+  const url = google + site + '+' + q.value;
+  const win = window.open(url, '_blank');
+  win.focus();
+}
+f.addEventListener('submit', submitted);

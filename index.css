@@ -1,7 +1,9 @@
 body {
-    /* background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+    background-image: url(https://images.pexels.com/photos/616484/pexels-photo-616484.jpeg?cs=srgb&dl=pexels-lukas-616484.jpg&fm=jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     overflow: hidden;
-    
 }
 h1 {
     color: black;
@@ -120,16 +122,51 @@ h3 {
 .search_image{
     height: 3vmin;
     opacity: 0.6;
-}
-.search input[type=text]{
-    background-color: whitesmoke;
-    border-style: solid;
-    border-color: black;
-    border-width: 3px;
+    user-select: none;
     z-index: 1;
+}
+form {
+    opacity: 1;
+}
+input {
+    border: solid;
+    border-radius: 30px;
+    border-width: 3px;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
     position: absolute;
     height: 5vmin;
     width: 90vmin;
+    float: right;
+    margin-right: 8px;
+    top: 87%;
+    left: 27%;
+}
+button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 30px;
+    position: absolute;
+    top: 87.9%;
+    left: 71%;
+}
+.signup{
+    height: 5vmin;
+    width: 15vmin;
     border-radius: 30px;
-    overflow: hidden;
+    font-size: 25px;
+    position: relative;
+    top: -230px;
+    left: 50px;
+    background-color: #56B760;
+    
+}
+.signup_{
+    font-size: 30px; 
+    font-family: 'Indie Flower', sans-serif;
+    position: absolute;
+    top: -27px;
+    left: 33px;
+    color: white;
 }

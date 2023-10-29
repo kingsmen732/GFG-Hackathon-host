@@ -1,0 +1,87 @@
+body {
+    background-image: url(https://images.pexels.com/photos/616484/pexels-photo-616484.jpeg?cs=srgb&dl=pexels-lukas-616484.jpg&fm=jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: black;
+    font-size: 100px;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+    transform: translate(0%, -50%);
+    user-select: none;
+    position: absolute;
+    top: 25%;
+    left: 36%;
+}
+label{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+    transform: translate(0%, -50%);
+    user-select: none;
+}
+#name{
+    border: solid;
+    border-radius: 30px;
+    border-width: 3px;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+    height: 5vmin;
+    width: 90vmin;
+    float: right;
+    margin-right: 8px;
+    top: 40%;
+    left: 27%;
+}
+#email{
+    border: solid;
+    border-radius: 30px;
+    border-width: 3px;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+    height: 5vmin;
+    width: 90vmin;
+    float: right;
+    margin-right: 8px;
+    top: 50%;
+    left: 27%
+}
+#pay{
+    border: solid;
+    border-radius: 30px;
+    border-width: 3px;
+    font-size: 25px;
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+    height: 5vmin;
+    width: 20vmin;
+    float: right;
+    margin-right: 8px;
+    top: 60%;
+    left: 45%
+}
+.signup{
+    height: 5vmin;
+    width: 15vmin;
+    border-radius: 30px;
+    font-size: 25px;
+    position: relative;
+    top: -50px;
+    left: 30px;
+    background-color: #56B760;
+    cursor: pointer;
+}
+.signup_{
+    font-size: 30px; 
+    font-family: 'Indie Flower', sans-serif;
+    position: absolute;
+    top: -27px;
+    left: 39px;
+    color: white;
+}
